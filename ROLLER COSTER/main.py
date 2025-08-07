@@ -30,11 +30,20 @@ if abc.lower() == c.lower():
                 print("You selected Puffcorn\npay 40$")
             elif ak == 3:
                 print("You selected Drink\npay 30$")
-            
+            print("Thanks for paying goo and enjoy your ride")
+            go=input("Are you ready(y/n)")
+        if go.lower() == 'y':
+             print("Please take your seat")
+        else:
+             print("Ok Take your time")
+        
+        
         
 elif abc.lower()=='n':
     print('ok bye')
     
+    
 
       
+
 
